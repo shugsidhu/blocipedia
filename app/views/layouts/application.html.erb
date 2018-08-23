@@ -11,6 +11,8 @@
   <div class="contiainer">
     <ul class="nav nav-tabs">
       <li><%= link_to "Blocipedia", root_path %></li>
+       <li><%= link_to "About", welcome_about_path %></li>
+       <li><%= link_to "Wikis", wikis_path, :class => 'nav-link' %></li>
     </ul>
     <% if notice %>
       <p class="alert alert-success"><%= notice %></p>
