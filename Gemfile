@@ -52,9 +52,11 @@ group :development do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
   gem 'jquery-rails'
-  gem 'devise'
+
 
 end
+
+gem 'devise'
 
 group :production do
    # Use pg as the production database for Active Record
